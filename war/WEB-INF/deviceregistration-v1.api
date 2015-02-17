@@ -1,0 +1,71 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://powerful-memory-858.appspot.com/_ah/api",
+  "name" : "deviceregistration",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://powerful-memory-858.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "methods" : {
+    "deviceregistration.deviceRegistrationEndpoint.registerDevice" : {
+      "path" : "registerDevice",
+      "httpMethod" : "POST",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ ],
+      "clientIds" : [ "<!!! INSERT YOUR CLIENT ID FOR IOS HERE !!!>" ],
+      "rosyMethod" : "com.google.cloud.solutions.mobilepushnotification.DeviceRegistrationEndpoint.registerDevice",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "DeviceRegistration" : {
+        "id" : "DeviceRegistration",
+        "type" : "object",
+        "properties" : {
+          "deviceToken" : {
+            "type" : "string"
+          },
+          "timestamp" : {
+            "type" : "string",
+            "format" : "date-time"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.google.cloud.solutions.mobilepushnotification.DeviceRegistrationEndpoint.registerDevice" : {
+        "request" : {
+          "$ref" : "DeviceRegistration"
+        },
+        "response" : {
+          "$ref" : "DeviceRegistration"
+        }
+      }
+    }
+  }
+}
