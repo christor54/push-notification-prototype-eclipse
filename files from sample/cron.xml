@@ -11,8 +11,8 @@
 <!--     <description>Remove no longer needed records of processed notifications -->
 <!--     </description> -->
 <!--     <target>worker</target> -->
-<!--     Do the clean up at the time with lower normal traffic, e.g., in the night
-<!--       of a given time zone. --> 
+    Do the clean up at the time with lower normal traffic, e.g., in the night
+<!-- <!--       of a given time zone.  -->
 <!--     <schedule>every day 04:45</schedule> -->
 <!--     <timezone>America/New_York</timezone> -->
 <!--   </cron> -->

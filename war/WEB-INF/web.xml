@@ -13,59 +13,59 @@
     <url-pattern>/_ah/spi/*</url-pattern>
   </servlet-mapping>
 
-<!--   <servlet> -->
-<!--     <servlet-name>PushNotificationWorkerServlet</servlet-name> -->
-<!--     <servlet-class>com.google.cloud.solutions.mobilepushnotification.PushNotificationWorkerServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--     <servlet-name>PushNotificationWorkerServlet</servlet-name> -->
-<!--     <url-pattern>/_ah/start</url-pattern> -->
-<!--   </servlet-mapping> -->
+  <servlet>
+    <servlet-name>PushNotificationWorkerServlet</servlet-name>
+    <servlet-class>com.google.cloud.solutions.mobilepushnotification.PushNotificationWorkerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PushNotificationWorkerServlet</servlet-name>
+    <url-pattern>/_ah/start</url-pattern>
+  </servlet-mapping>
 
-<!--   <servlet> -->
-<!--     <servlet-name>PushPreProcessingServlet</servlet-name> -->
-<!--     <servlet-class>com.google.cloud.solutions.mobilepushnotification.PushPreProcessingServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--     <servlet-name>PushPreProcessingServlet</servlet-name> -->
-<!--     <url-pattern>/admin/push/preprocessing</url-pattern> -->
-<!--   </servlet-mapping> -->
+  <servlet>
+    <servlet-name>PushPreProcessingServlet</servlet-name>
+    <servlet-class>com.google.cloud.solutions.mobilepushnotification.PushPreProcessingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PushPreProcessingServlet</servlet-name>
+    <url-pattern>/admin/push/preprocessing</url-pattern>
+  </servlet-mapping>
 
-<!--   <servlet> -->
-<!--     <servlet-name>PushFeedbackProcessingServlet</servlet-name> -->
-<!--     <servlet-class>com.google.cloud.solutions.mobilepushnotification.PushFeedbackProcessingServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--     <servlet-name>PushFeedbackProcessingServlet</servlet-name> -->
-<!--     <url-pattern>/admin/push/feedbackservice/process</url-pattern> -->
-<!--   </servlet-mapping> -->
+  <servlet>
+    <servlet-name>PushFeedbackProcessingServlet</servlet-name>
+    <servlet-class>com.google.cloud.solutions.mobilepushnotification.PushFeedbackProcessingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PushFeedbackProcessingServlet</servlet-name>
+    <url-pattern>/admin/push/feedbackservice/process</url-pattern>
+  </servlet-mapping>
 
-<!--   <servlet> -->
-<!--     <servlet-name>DeviceCleanupServlet</servlet-name> -->
-<!--     <servlet-class>com.google.cloud.solutions.mobilepushnotification.DeviceCleanupServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--     <servlet-name>DeviceCleanupServlet</servlet-name> -->
-<!--     <url-pattern>/admin/push/device/cleanup</url-pattern> -->
-<!--   </servlet-mapping> -->
+  <servlet>
+    <servlet-name>DeviceCleanupServlet</servlet-name>
+    <servlet-class>com.google.cloud.solutions.mobilepushnotification.DeviceCleanupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeviceCleanupServlet</servlet-name>
+    <url-pattern>/admin/push/device/cleanup</url-pattern>
+  </servlet-mapping>
 
-<!--   <servlet> -->
-<!--     <servlet-name>NotificationCleanupServlet</servlet-name> -->
-<!--     <servlet-class>com.google.cloud.solutions.mobilepushnotification.NotificationCleanupServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--     <servlet-name>NotificationCleanupServlet</servlet-name> -->
-<!--     <url-pattern>/admin/push/notifications/cleanup</url-pattern> -->
-<!--   </servlet-mapping> -->
+  <servlet>
+    <servlet-name>NotificationCleanupServlet</servlet-name>
+    <servlet-class>com.google.cloud.solutions.mobilepushnotification.NotificationCleanupServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NotificationCleanupServlet</servlet-name>
+    <url-pattern>/admin/push/notifications/cleanup</url-pattern>
+  </servlet-mapping>
 
-<!--   <servlet> -->
-<!--     <servlet-name>DummyGameAdminServlet</servlet-name> -->
-<!--     <servlet-class>com.google.cloud.solutions.mobilepushnotification.dummybackendsample.DummyGameAdminServlet</servlet-class> -->
-<!--   </servlet> -->
-<!--   <servlet-mapping> -->
-<!--     <servlet-name>DummyGameAdminServlet</servlet-name> -->
-<!--     <url-pattern>/admin/test</url-pattern> -->
-<!--   </servlet-mapping> -->
+  <servlet>
+    <servlet-name>DummyGameAdminServlet</servlet-name>
+    <servlet-class>com.google.cloud.solutions.mobilepushnotification.dummybackendsample.DummyGameAdminServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DummyGameAdminServlet</servlet-name>
+    <url-pattern>/admin/test</url-pattern>
+  </servlet-mapping>
 
 <!--   <security-constraint> -->
 <!--     <web-resource-collection> -->
