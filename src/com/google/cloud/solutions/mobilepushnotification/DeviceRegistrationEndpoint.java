@@ -17,7 +17,7 @@ import com.google.api.server.spi.ServiceException;
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.response.UnauthorizedException;
 import com.google.appengine.api.users.User;
-
+import com.google.cloud.solutions.mobilepushnotification.EMF;
 import java.util.Date;
 
 import javax.persistence.EntityManager;

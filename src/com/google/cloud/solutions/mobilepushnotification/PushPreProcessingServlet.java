@@ -13,7 +13,6 @@
  */
 package com.google.cloud.solutions.mobilepushnotification;
 
-import com.google.appengine.api.datastore.Cursor;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +23,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.datanucleus.store.appengine.query.JPACursorHelper;
+import com.google.appengine.api.datastore.Cursor;
+import com.google.appengine.datanucleus.query.JPACursorHelper;
 
 /**
  * HttpServlet for preprocessing push notification requests. In particular it takes a request for
