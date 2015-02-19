@@ -38,7 +38,7 @@ public class Configuration {
    * binaries. Eclipse does it automatically if the file is placed under the src folder
    */
 
-  private static final String CERTTIFICATE_FILE_NAME = "Push-Notification-Cert.p12"; 
+  private static final String CERTTIFICATE_FILE_NAME = "LyfeboatPushCert.p12"; 
   static final String CERTIFICATE_PASSWORD = "*OceanLyfe2015*";
   private static byte[] certificateBytes = null;
 
